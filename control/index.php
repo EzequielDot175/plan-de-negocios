@@ -181,14 +181,9 @@
 						<thead>
 							<tr>
 								<th class="text-uppercase col-mes"></th>
-								<th class="text-uppercase col-mes">Agosto</th>
-								<th class="text-uppercase col-mes">Septiembre</th>
-								<th class="text-uppercase col-mes">Octubre</th>
-								<th class="text-uppercase col-mes">Noviembre</th>
-								<th class="text-uppercase col-mes">Diciembre</th>
-								<th class="text-uppercase col-mes">Enero</th>
-								<th class="text-uppercase col-mes">Febrero</th>
-								<th class="text-uppercase col-mes">Marzo</th>
+								<th  ng-repeat="(key, value) in meses">
+									{{key}}
+								</th>
 							</tr>
 						</thead>
 						<tbody>

@@ -22,7 +22,7 @@ app.controller('CtrlFilter', ['$scope','ajax','$rootScope','$filter', function(s
 	scope.canvas = new veCanvas("canvas-nufarm");
 
 	scope.canvas.setWorkSpace({
-		paddingLeft: 90,
+		paddingLeft: 55,
 		paddingBottom: 70,
 		paddingTop: 90
 	});
@@ -32,7 +32,7 @@ app.controller('CtrlFilter', ['$scope','ajax','$rootScope','$filter', function(s
 	 */
 	
 	scope.monthOriginal = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
-	scope.monthPeriod = ["agosto", "septiembre", "octubre", "noviembre", "diciembre","enero", "febrero", "marzo"];
+	scope.monthPeriod = ["agosto", "septiembre", "octubre", "noviembre", "diciembre", "enero", "febrero", "marzo","abril","mayo","junio","julio"];
 
 
 	/**

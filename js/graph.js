@@ -139,7 +139,7 @@ class veCanvas extends canvasHelpers{
 		this.ctx = this.elm.getContext("2d");
 		this.height = elm.height;
 		this.width = elm.width;
-		this.columns = 8;
+		this.columns = 12;
 		this.coordinates = {
 			columns: {
 				x : [],

@@ -1030,6 +1030,9 @@ p {
   padding-top: 40px; }
 .admin .tabla-mes-vendedor {
   margin: 40px 0 10px 0 !important; }
+.admin .tabla-mes-vendedor thead tr th:first-letter{
+  text-transform: uppercase;
+}
 .admin .filtros .button-B {
   background-color: #E5AC0E;
   color: #fff;
@@ -1145,6 +1148,9 @@ p {
     width: 100%; }
   .admin .tabla-mes th {
     padding-bottom: 10px; }
+  .admin .tabla-mes th::first-letter{
+    text-transform: uppercase;
+  }
   .admin .tabla-mes td {
     border: 2px solid rgba(225, 229, 225, 0);
     width: auto;
@@ -1590,6 +1596,7 @@ p {
         #content .inner .data .prog-bar .indicator.position3 {
           margin-left: 76%;
           background-position: 68% 0px !important; }
+
 
 /* RESPONSIVE  */
 /*mobile--------------------------------------------------*/
